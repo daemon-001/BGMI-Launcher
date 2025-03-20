@@ -1,6 +1,6 @@
-# BGMI Launcher
+# BGMI Launcher [icon](icon.ico)
 
-A utility application to launch Battlegrounds Mobile India (BGMI) on LDPlayer emulator while bypassing emulator detection.
+[icon](icon.ico)A utility application to launch Battlegrounds Mobile India (BGMI) on LDPlayer emulator while bypassing emulator detection.
 
 
 ## Overview
