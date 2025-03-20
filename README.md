@@ -19,6 +19,7 @@ This project is for educational purposes only. Using emulators and bypass method
 - **Reconnect Server**: Manages network connectivity to bypass server checks
 - **Port Blocking**: Toggle network port blocking to prevent emulator detection
 - **Clear Logs**: Removes game logs and cache files to avoid detection
+- **Bottom Logbox**: Display all logs of scripts
 
 ## Requirements
 
@@ -82,6 +83,10 @@ The launcher uses a combination of techniques to bypass BGMI's emulator detectio
 - Cleans game logs and cache files that might contain emulator information
 - Handles network connectivity to prevent server-side detection
 - Replaces certain game files with modified versions to bypass client-side checks
+
+## Project Image
+![BGMI Launcher 20-03-2025 06_04_24 PM](https://github.com/user-attachments/assets/580e14d9-6db7-4f9e-8cb3-fbf549f586ad)
+
 
 ## License
 
