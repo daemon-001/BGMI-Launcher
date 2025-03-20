@@ -2,7 +2,7 @@
 
 A utility application to launch Battlegrounds Mobile India (BGMI) on LDPlayer emulator while bypassing emulator detection.
 
-![BGMI Launcher](https://placeholder-image-url.com/bgmi-launcher.png)
+![BGMI Launcher](https://github.com/daemon-001/BGMI-Launcher/blob/main/logo.png)
 
 ## Overview
 
@@ -59,10 +59,6 @@ The launcher uses a combination of techniques to bypass BGMI's emulator detectio
 - Cleans game logs and cache files that might contain emulator information
 - Handles network connectivity to prevent server-side detection
 - Replaces certain game files with modified versions to bypass client-side checks
-
-## Contributing
-
-Feel free to fork this project and submit pull requests with improvements or additional features.
 
 ## License
 
