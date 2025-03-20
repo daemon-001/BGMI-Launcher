@@ -2,12 +2,22 @@
 import customtkinter
 import subprocess
 import threading
+import sys
+import os
+
+
+def resource_path(relative_path):
+    if hasattr(sys, '_MEIPASS'):
+        return os.path.join(sys._MEIPASS, relative_path)
+    return os.path.join(os.path.abspath("."), relative_path)
+
+
 customtkinter.set_appearance_mode('dark')
 customtkinter.set_default_color_theme('blue')
 app = customtkinter.CTk()
 app.geometry('400x400')
 app.title('BGMI Launcher')
-app.iconbitmap('icon.ico')
+app.iconbitmap(resource_path('icon.ico'))
 app.resizable(0, 0)
 text_1 = customtkinter.CTkTextbox(master=app, width=350, height=180)
 switch_var = customtkinter.StringVar(value='off')
