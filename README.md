@@ -2,7 +2,6 @@
 
 A utility application to launch Battlegrounds Mobile India (BGMI) on LDPlayer emulator while bypassing emulator detection.
 
-![BGMI Launcher](https://github.com/daemon-001/BGMI-Launcher/blob/main/logo.png)
 
 ## Overview
 
@@ -40,6 +39,30 @@ This project is for educational purposes only. Using emulators and bypass method
    ```
    python BGMI_Launcher.py
    ```
+   
+## File Structure
+
+```
+BGMI_Launcher/
+│
+├── BGMI_Launcher.py         # Main Python application file
+├── BGMI_Launcher.exe        # Executable application file
+├── icon.ico                 # Application icon
+│
+└── scripts/                 # Batch scripts directory
+    ├── connect_emulator.bat # Script to connect to LDPlayer via ADB
+    ├── lounch_bgmi.bat      # Script to launch BGMI with bypass settings
+    ├── reconnect_server.bat # Script to manage network connectivity
+    ├── clear_logs.bat       # Script to clean game logs and cache
+    ├── on.bat               # Script to enable port blocking
+    ├── off.bat              # Script to disable port blocking
+    │
+    └── nmod                        # Configuration files archive
+        ├── ShadowTrackerExtra.log  # Placeholder log file
+        ├── Active.sav              # Game save file
+        ├── UserSettings.ini        # Modified game settings
+        └── UserCustom.ini          # Custom game configuration
+```   
 
 ## Usage
 
