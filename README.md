@@ -49,13 +49,13 @@ BGMI_Launcher/
 ├── BGMI_Launcher.exe        # Executable application file
 ├── icon.ico                 # Application icon
 │
-└── scripts/                 # Batch scripts directory
-    ├── connect_emulator.bat # Script to connect to LDPlayer via ADB
-    ├── lounch_bgmi.bat      # Script to launch BGMI with bypass settings
-    ├── reconnect_server.bat # Script to manage network connectivity
-    ├── clear_logs.bat       # Script to clean game logs and cache
-    ├── on.bat               # Script to enable port blocking
-    ├── off.bat              # Script to disable port blocking
+└── scripts/                    # Batch scripts directory
+    ├── connect_emulator.bat    # Script to connect to LDPlayer via ADB
+    ├── lounch_bgmi.bat         # Script to launch BGMI with bypass settings
+    ├── reconnect_server.bat    # Script to manage network connectivity
+    ├── clear_logs.bat          # Script to clean game logs and cache
+    ├── on.bat                  # Script to enable port blocking
+    ├── off.bat                 # Script to disable port blocking
     │
     └── nmod                        # Configuration files archive
         ├── ShadowTrackerExtra.log  # Placeholder log file
