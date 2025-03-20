@@ -85,7 +85,8 @@ The launcher uses a combination of techniques to bypass BGMI's emulator detectio
 - Replaces certain game files with modified versions to bypass client-side checks
 
 ## Project Image
-![BGMI Launcher 20-03-2025 06_04_24 PM](https://github.com/user-attachments/assets/580e14d9-6db7-4f9e-8cb3-fbf549f586ad)
+![image](https://github.com/user-attachments/assets/560049da-15b1-48cd-8ae1-fab75d22b6ca)
+
 
 
 ## License
