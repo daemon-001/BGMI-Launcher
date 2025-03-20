@@ -15,19 +15,19 @@ switch_var = customtkinter.StringVar(value='off')
 def scripts(x):
     y = x
     if y == 11:
-        file = 'tcl_scripts\\connect_emulator.bat'
+        file = 'scripts\\connect_emulator.bat'
     elif y == 12:
-        file = 'tcl_scripts\\lounch_bgmi.bat'
+        file = 'scripts\\lounch_bgmi.bat'
     elif y == 13:
-        file = 'tcl_scripts\\reconnect_server.bat'
+        file = 'scripts\\reconnect_server.bat'
     elif y == 14:
-        file = 'tcl_scripts\\clear_logs.bat'
+        file = 'scripts\\clear_logs.bat'
     elif y == 15:
         switch = switch_var.get()
         if switch == 'on':
-            file = "tcl_scripts\\on.bat"
+            file = "scripts\\on.bat"
         if switch == 'off':
-            file = "tcl_scripts\\off.bat"
+            file = "scripts\\off.bat"
     proc = subprocess.Popen(file, stdout=subprocess.PIPE)
     text_1.delete('0.0', 'end')
     while not proc.poll():
