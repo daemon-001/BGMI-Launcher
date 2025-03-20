@@ -8,7 +8,7 @@ A utility application to launch Battlegrounds Mobile India (BGMI) on LDPlayer em
 
 BGMI Launcher provides a simple GUI interface to help players run BGMI on LDPlayer emulator by handling various bypass methods for emulator detection. The application streamlines the process of connecting to the emulator, managing network configurations, and launching the game with the right settings.
 
-## Disclaimer
+## 🔴Disclaimer
 
 This project is for educational purposes only. Using emulators and bypass methods may violate the game's terms of service. Use at your own risk.
 
